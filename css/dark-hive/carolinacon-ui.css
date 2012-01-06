@@ -1,0 +1,30 @@
+body {
+    font-size: 12px;
+    background: #030405;
+    font-family: Junction, Verdana, Arial;
+}
+
+a {
+    -webkit-transition: color 0.1s; /* Safari and Chrome */
+       -moz-transition: color 0.1s; /* Firefox 4 */
+         -o-transition: color 0.1s; /* Opera */
+            transition: color 0.1s;
+}
+
+a:hover {
+    color: #0972A5;
+}
+
+a:active {
+    color: #fff;
+}
+
+@font-face {
+    font-family: "Junction"; 
+    src: url("../fonts/Junction-webfont.ttf")  format("truetype"),
+         url("../fonts/Junction-webfont.woff") format("woff");
+}
+
+h1, h2, h3 {
+    color: #fff;
+}

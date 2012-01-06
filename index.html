@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+        <title>jQuery UI Example Page</title>
+        <link type="text/css" href="css/dark-hive/jquery-ui.css" rel="stylesheet" />   
+        <link type="text/css" href="css/dark-hive/carolinacon-ui.css" rel="stylesheet" />   
+        <link type="text/css" href="css/960_12_col.css" rel="stylesheet" />   
+        <script type="text/javascript" src="js/jquery-1.6.2.min.js"></script>
+        <script type="text/javascript" src="js/jquery-ui-1.8.16.custom.min.js"></script>
+        <script type="text/javascript" src="js/jquery.ba-bbq.min.js"></script>
+        <script type="text/javascript">
+            $(function(){<!--{{{-->
+    
+                // Tabs
+                $('#tabs').tabs();
+                
+                //hover states on the static widgets
+                $('#dialog_link, ul#icons li').hover(
+                    function() { $(this).addClass('ui-state-hover'); }, 
+                    function() { $(this).removeClass('ui-state-hover'); }
+                );
+  
+                // The "tab widgets" to handle.
+                var tabs = $('.tabs'),
+                  
+                  // This selector will be reused when selecting actual tab widget A elements.
+                  tab_a_selector = 'ul.ui-tabs-nav a';
+                
+                // Enable tabs on all tab widgets. The `event` property must be overridden so
+                // that the tabs aren't changed on click, and any custom event name can be
+                // specified. Note that if you define a callback for the 'select' event, it
+                // will be executed for the selected tab whenever the hash changes.
+                tabs.tabs({ event: 'change' });
+                
+                // Define our own click handler for the tabs, overriding the default.
+                tabs.find( tab_a_selector ).click(function(){
+                  var state = {},
+                    
+                    // Get the id of this tab widget.
+                    id = $(this).closest( '.tabs' ).attr( 'id' ),
+                    
+                    // Get the index of this tab.
+                    idx = $(this).parent().prevAll().length;
+                  
+                  // Set the state!
+                  state[ id ] = idx;
+                  $.bbq.pushState( state );
+                });
+                
+                // Bind an event to window.onhashchange that, when the history state changes,
+                // iterates over all tab widgets, changing the current tab as necessary.
+                $(window).bind( 'hashchange', function(e) {
+                  
+                  // Iterate over all tab widgets.
+                  tabs.each(function(){
+                    
+                    // Get the index for this tab widget from the hash, based on the
+                    // appropriate id property. In jQuery 1.4, you should use e.getState()
+                    // instead of $.bbq.getState(). The second, 'true' argument coerces the
+                    // string value to a number.
+                    var idx = $.bbq.getState( this.id, true ) || 0;
+                    
+                    // Select the appropriate tab for this tab widget by triggering the custom
+                    // event specified in the .tabs() init above (you could keep track of what
+                    // tab each widget is on using .data, and only select a tab if it has
+                    // changed).
+                    $(this).find( tab_a_selector ).eq( idx ).triggerHandler( 'change' );
+                  });
+                })
+                
+                // Since the event is only triggered when the hash changes, we need to trigger
+                // the event now, to handle the hash the page may have loaded with.
+                $(window).trigger( 'hashchange' );
+                  
+                
+            });
+
+            $(document).ready( function() {
+                
+            });<!--}}}-->
+        </script>
+    </head>
+    <body>
+
+    <div id="container" class="container_12">
+
+        <h1>CAROLINACON</h1>
+        <h2>Presented by North Carolina 2600</h2>
+
+        <h3>May 11-13, 2012, Raleigh<h3>
+        
+        <!-- Navigation tabs and each tab's content -->
+        <div id="tabs" class="tabs">
+
+            <ul>
+                <li><a href="#tabs=0">Home</a></li>
+                <li><a href="#tabs=1">About</a></li>
+                <li><a href="#tabs=2">Location</a></li>
+                <li><a href="#tabs=3">Schedule</a></li>
+                <li><a href="#tabs=4">Attend</a></li>
+                <li><a href="#tabs=5">Volunteer</a></li>
+                <li><a href="#tabs=6">FAQ</a></li>
+                <li><a href="#tabs=7">Contact</a></li>
+            </ul>
+
+            <!--
+            /*************************************************************
+             * PAGE CONTENT BELOW                                        *
+             *                                                           *
+             * Each div below corresponds to one of the navigation tabs. *
+             *************************************************************/
+            -->
+
+            <div id="home"><!--{{{-->
+
+    <p>CarolinaCon 8 will be held May 11th 2012 - May 13th 2012 at the Hilton North Raleigh/Midtown
+
+    <p>We have a <a href="http://www.hilton.com/en/hi/groups/personalized/R/RDUNHHF-CCC-20120511/index.jhtml" title="reduced rate hotel reservation">reduced rate hotel reservation</a>.
+
+            </div> <!-- /#home -->
+
+            <div id="about">
+
+    <p>CarolinaCon is an annual conference in North Carolina that is dedicated to sharing knowledge about technology, security and information rights.  CarolinaCon also serves to enhance the local and international awareness of current technology related issues and developments.  CarolinaCon also strives to mix in enough entertainment and side contests/challenges to make for a truly fun event.</p>
+
+    <p>CarolinaCon was started in 2005 and has been held every year since.  With each passing year the conference continues to grow and attract more attendees and speakers.
+    As has always been the case, CarolinaCon is put together and run by an all-volunteer staff.  CarolinaCon is proudly brought to you by "The CarolinaCon Group".  The CarolinaCon Group is a non-profit organization registered in the state of NC, dedicated to educating the local and global communities about technology, information/network/computer security, and information rights.</p>
+
+    <p>The CarolinaCon Group is also closely associated with various "2600" chapters across NC, SC, TN, VA, LA, DC, GA, PA and NY.  Many of the volunteers who help develop and deliver CarolinaCon come from those chapters.</p>
+
+            </div> <!-- /#about -->
+
+            <div id="location">
+
+    <p>CarolinaCon 8 will be held at a new location.</p>
+
+    <p>Hilton North Raleigh/Midtown
+    3415 Wake Forest Road
+    Raleigh, North Carolina
+    USA 27609-7330
+    Tel: +1-919-872-2323
+    Fax: +1-919-876-0890</p>
+
+    <p>We have a <a href="http://www.hilton.com/en/hi/groups/personalized/R/RDUNHHF-CCC-20120511/index.jhtml" title="reduced rate hotel reservation">reduced rate hotel reservation</a>.  The block of reduced-rate rooms is limited, so register early or you might miss out.</p>
+
+            </div> <!-- /#location -->
+
+            <div id="schedule">
+
+    <p>The schedule for CarolinaCon 8 will be posted here when it has been finalized.</p>
+
+            </div> <!-- /#schedule -->
+
+            <div id="attend">
+
+    <p>If you are looking for information about attending CarolinaCon then you've clicked on the right link.</p>
+
+    <p><b>Admission to the conference is $20 at the door.</b>  There is no pre-registration.  For your $20 you will receive admission to the conference and a cool CarolinaCon badge.  In past years we've also given away magazines, CDs, and free food with the cost of admission.  There's no telling what we'll be giving away this year so you'll have to attend to find out.</p>
+
+    <p>We will also be selling t-shirts at the conference but a price for those shirts has not been determined yet.  You can expect to pay similar prices to what other conferences charge for their shirts ($10~$20).</p>
+
+    <!-- Show old tshirts once I get the images :)
+    Past shirts:
+
+    <img src="img/shirts/" alt="tshirt from cc1" />
+    <img src="img/shirts/" alt="tshirt from cc2" />
+    <img src="img/shirts/" alt="tshirt from cc3" />
+
+    etc -->
+
+            </div> <!-- /#attend -->
+
+            <div id="volunteer">
+
+    <p>If you are interested in becoming a volunteer for CarolinaCon then head over to the <a href="https://forum.nc2600.org/">NC2600 forums</a> and start posting.  Most of our volunteers come from the NC2600 forum and the NC2600 forum community will be happy to talk with you.</p>
+
+            </div> <!-- /#volunteer -->
+
+            <div id="faq">
+            </div> <!-- /#faq -->
+
+            <div id="contact">
+
+    <p>For information about the event, please contact <a href="mailto:info@carolinacon.org">info@carolinacon.org</a> or <a href="http://twitter.com/carolinacon">@CarolinaCon</a>.</p>
+
+    <p>Speakers should contact <a href="mailto:speakers@carolinacon.org">speakers@carolinacon.org</a></p>
+
+            </div> <!-- /#contact -->
+
+        </div> <!-- /#tabs --><!--}}}-->
+
+    </div> <!-- /#container -->
+
+    </body>
+</html>
+
+<!-- vim: set foldmethod=marker: -->
