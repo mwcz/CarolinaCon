@@ -1,8 +1,51 @@
 body {
-    font-size: 12px;
+    font-size: 13px;
     background: #030405;
-    font-family: Junction, Verdana, Arial;
+    font-family: Verdana, Arial;
+    font-weight: normal;
 }
+
+#container {
+    position: relative;
+    padding-top: 30px;
+}
+
+#header h1,
+#header h2,
+#header h3 {
+    color: #fff;
+}
+
+#header h1 {
+    font-family: OrbitronLight;
+    font-size: 2.867em;
+    line-height: 0.4em;
+    letter-spacing: 0.27em;
+    margin: 0;
+}
+
+#header h2 {
+    font-family: OrbitronLight;
+    font-size: 1em;
+    letter-spacing: 0.32em;
+    color: #888;
+}
+
+#header h3 {
+    font-family: OrbitronBold;
+    font-size: 2em;
+    position: absolute;
+    top: 0;
+    right: 0;
+    text-shadow: 0px 0px 6px rgba(14,177,255,1.0);
+}
+
+h2 {
+    font-family: OrbitronLight;
+    font-size: 1.2em;
+    color: #aaa;
+}
+
 
 a {
     -webkit-transition: color 0.1s; /* Safari and Chrome */
@@ -19,12 +62,57 @@ a:active {
     color: #fff;
 }
 
-@font-face {
-    font-family: "Junction"; 
-    src: url("../fonts/Junction-webfont.ttf")  format("truetype"),
-         url("../fonts/Junction-webfont.woff") format("woff");
+p.blurb {
+    font-size: 2em;
 }
 
-h1, h2, h3 {
-    color: #fff;
+.img_decoration,
+iframe {
+    border:  1px solid #000;
+    outline: 1px solid #555;
+    -webkit-box-shadow: 1px 3px 5px rgba(0,0,0,0.7);
 }
+
+.oldsites {
+    list-style: none;
+}
+.oldsites li {
+    margin-top: 1em;
+}
+.oldsites li a img {
+    border: 0;
+    margin-bottom: 24px;
+}
+
+.ui-tabs-nav {
+    font-family: OrbitronLight;
+}
+.ui-tabs-panel {
+    overflow: hidden;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+
+/****************************/
+/* Custom fonts */
+/****************************/
+@font-face {
+    font-family: "OrbitronLight"; 
+    src: url("../../fonts//orbitron-light-webfont.eot")  format("embedded-opentype"),
+         url("../../fonts//orbitron-light-webfont.ttf")  format("truetype"),
+         url("../../fonts//orbitron-light-webfont.woff") format("woff");
+}
+@font-face {
+    font-family: "OrbitronBold"; 
+    src: url("../../fonts//orbitron-bold-webfont.eot")  format("embedded-opentype"),
+         url("../../fonts//orbitron-bold-webfont.ttf")  format("truetype"),
+         url("../../fonts//orbitron-bold-webfont.woff") format("woff");
+}
+
