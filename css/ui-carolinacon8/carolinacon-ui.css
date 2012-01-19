@@ -73,15 +73,18 @@ iframe {
     -webkit-box-shadow: 1px 3px 5px rgba(0,0,0,0.7);
 }
 
-.oldsites {
+.imglist {
     list-style: none;
 }
-.oldsites li {
+.imglist li {
     margin-top: 1em;
 }
-.oldsites li a img {
+.imglist li a img {
     border: 0;
     margin-bottom: 24px;
+}
+
+.shirtlist li {
 }
 
 .ui-tabs-nav {
