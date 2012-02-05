@@ -8,6 +8,7 @@ body {
 #container {
     position: relative;
     padding-top: 30px;
+    line-height: 1.6;
 }
 
 #header h1,
@@ -64,6 +65,12 @@ a:active {
 
 p.blurb {
     font-size: 2em;
+}
+
+pre.address {
+    font-size: 2em;
+    line-height: 1;
+    font-family: Verdana, Arial;
 }
 
 .img_decoration,
