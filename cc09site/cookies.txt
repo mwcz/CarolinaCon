@@ -1,0 +1,7 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+carolinacon.org	TRUE	/	FALSE	1999999999	exp_last_visit	931882323
+carolinacon.org	TRUE	/	FALSE	1999999999	PHPSESSID	23b1d3d47e7bfdc4ae23cadb0de1ac0b
+carolinacon.org	TRUE	/	FALSE	1999999999	exp_tracker	a%3A5%3A%7Bi%3A0%3Bs%3A67%3A%22%2Fpresentations%2Fhow_to_build_a_competitive_robot_in_6_weeks_or_less%2F%22%3Bi%3A1%3Bs%3A35%3A%22%2Fpresentations%2Freverse_engineering%2F%22%3Bi%3A2%3Bs%3A77%3A%22%2Fpresentations%2Fcollege_of_hacking_successful_network_penetration_for_dummies%2F%22%3Bi%3A3%3Bs%3A60%3A%22%2Fpresentations%2Fgender_issues_in_hacking_and_hacking_culture%2F%22%3Bi%3A4%3Bs%3A32%3A%22%2Fpresentations%2Farp_spoofing_101%2F%22%3B%7D
+carolinacon.org	TRUE	/	FALSE	1999999999	exp_last_activity	1247242395
+

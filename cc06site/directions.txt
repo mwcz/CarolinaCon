@@ -1,0 +1,154 @@
+Carolinacon 2006
+
+Hampton Inn
+
+3621 Spring Forest Rd
+Raleigh, NC 27616
+
+1-800-HAMPTON
+
+
+
+
+from RDU airport
+
+ 1: Start out going NORTHWEST on TERMINAL BLVD toward W INTERNATIONAL DR. <0.1 miles
+ 2: Turn RIGHT onto W INTERNATIONAL DR. 0.3 miles
+ 3: Turn RIGHT onto N RAMP DR. 0.1 miles
+ 4: N RAMP DR becomes E INTERNATIONAL DR. 1.1 miles
+ 5: Turn LEFT onto COMMERCE BLVD. 0.5 miles
+ 6: Turn RIGHT onto AVIATION PKWY. 0.4 miles
+ 7: Turn LEFT to take the US-70 W ramp. <0.1 miles
+ 8: Merge onto I-540 E via EXIT 293 toward US-1 / WAKE FOREST. 11.7 miles
+ 9: Take the US-1 S exit- EXIT 16. 0.3 miles
+ 10: Turn RIGHT onto CAPITAL BLVD / US-1 S. 1.3 miles
+ 11: Turn LEFT onto SPRING FOREST RD. 0.1 miles
+ 12: End at Hampton Inn, 3621 Spring Forest Rd, Raleigh, NC 27616 
+
+Total Est. Time: 22 minutes
+Total Est. Distance: 16.30 miles
+
+
+from Fayetteville NC
+
+ 1: Start out going NORTHWEST on MARKET SQ toward GILLESPIE ST. <0.1 miles
+ 2: Turn RIGHT onto GREEN ST. 0.3 miles
+ 3: Turn RIGHT onto NC-210 / NC-24 / GROVE ST. 0.7 miles
+ 4: Turn LEFT onto I-95 BR N / US-301 N / N EASTERN BLVD. Continue to follow I-95 BR N / US-301 N. 4.6 miles
+ 5: Merge onto I-95 N via the exit on the LEFT. 26.2 miles
+ 6: Merge onto I-40 W via EXIT 81 toward RALEIGH. 26.8 miles
+ 7: Merge onto I-440 E via EXIT 301. 4.9 miles
+ 8: Take the BRENTWOOD RD exit- EXIT 12. 0.2 miles
+ 9: Turn SLIGHT RIGHT onto BRENTWOOD RD. 0.9 miles
+ 10: Turn RIGHT onto CAPITAL BLVD / US-401 N / US-1 N. 1.5 miles
+ 11: Keep LEFT at the fork to go on CAPITAL BLVD / US-1 N. 1.2 miles
+ 12: Turn RIGHT onto SPRING FOREST RD. 0.1 miles
+ 13: End at Hampton Inn, 3621 Spring Forest Rd, Raleigh, NC 27616
+
+Total Est. Time: 1 hour, 8 minutes
+Total Est. Distance: 67.95 miles
+
+
+from Greensboro NC
+
+ 1: Start out going EAST on W MARKET ST toward S GREENE ST. 0.7 miles
+ 2: Turn RIGHT onto S DUDLEY ST. 0.1 miles
+ 3: S DUDLEY ST becomes BENNETT ST. 0.3 miles
+ 4: Turn LEFT onto E LEE ST / US-29A / US-70A / NC-6. Continue to follow E LEE ST / NC-6 E. 2.7 miles
+ 5: Merge onto I-40 E via the ramp on the LEFT toward BURLINGTON / DURHAM. 34.4 miles
+ 6: Merge onto I-85 N. 15.5 miles
+ 7: Take the US-70 E exit- EXIT 178- toward RDU AIRPORT / RALEIGH. 0.3 miles
+ 8: Merge onto US-70 BYP E. 2.2 miles
+ 9: US-70 BYP E becomes US-70 E. 6.9 miles
+ 10: Merge onto I-540 E via EXIT 292. 12.0 miles
+ 11: Take the US-1 S exit- EXIT 16. 0.3 miles
+ 12: Turn RIGHT onto CAPITAL BLVD / US-1 S. 1.3 miles
+ 13: Turn LEFT onto SPRING FOREST RD. 0.1 miles
+ 14: End at Hampton Inn, 3621 Spring Forest Rd, Raleigh, NC 27616
+
+Total Est. Time: 1 hour, 23 minutes
+Total Est. Distance: 77.38 miles
+
+
+from Charlotte NC
+
+ 1: Start out going NORTHEAST on S TRYON ST toward E TRADE ST. 0.6 miles
+ 2: Turn LEFT onto W 12TH ST. <0.1 miles 
+ 3: Merge onto I-277 N / W BROOKSHIRE FWY / NC-16 W via the ramp on the LEFT. 0.8 miles 
+ 4: Merge onto I-77 N / US-21 N via EXIT 5A toward I-85 / STATESVILLE. 1.7 miles 
+ 5: Merge onto I-85 N via EXIT 13A toward GREENSBORO. 141.2 miles 
+ 6: Take the US-70 E exit- EXIT 178- toward RDU AIRPORT / RALEIGH. 0.3 miles 
+ 7: Merge onto US-70 BYP E. 2.2 miles 
+ 8: US-70 BYP E becomes US-70 E. 6.9 miles 
+ 9: Merge onto I-540 E via EXIT 292. 12.0 miles 
+ 10: Take the US-1 S exit- EXIT 16. 0.3 miles 
+ 11: Turn RIGHT onto CAPITAL BLVD / US-1 S. 1.3 miles 
+ 12: Turn LEFT onto SPRING FOREST RD. 0.1 miles 
+ 13: End at Hampton Inn, 3621 Spring Forest Rd, Raleigh, NC 27616
+ 
+Total Est. Time: 2 hours, 48 minutes     
+Total Est. Distance: 168.07 miles 
+
+
+from Wilmington NC
+
+ 1: Start out going NORTH on US-17 BR / S 3RD ST toward QUEEN ST. 0.6 miles
+ 2: Turn RIGHT onto US-17 BR N / MARKET ST. Continue to follow MARKET ST. 4.3 miles
+ 3: Merge onto US-117 N / NC-132 N / N COLLEGE RD. 2.1 miles
+ 4: Stay STRAIGHT to go onto I-40 W. 119.0 miles
+ 5: Merge onto I-440 E via EXIT 301. 4.9 miles
+ 6: Take the BRENTWOOD RD exit- EXIT 12. 0.2 miles
+ 7: Turn SLIGHT RIGHT onto BRENTWOOD RD. 0.9 miles
+ 8: Turn RIGHT onto CAPITAL BLVD / US-401 N / US-1 N. 1.5 miles
+ 9: Keep LEFT at the fork to go on CAPITAL BLVD / US-1 N. 1.2 miles
+ 10: Turn RIGHT onto SPRING FOREST RD. 0.1 miles
+ 11: End at Hampton Inn, 3621 Spring Forest Rd, Raleigh, NC 27616
+
+Total Est. Time: 2 hours, 14 minutes
+Total Est. Distance: 135.44 miles
+
+
+from Asheville NC
+ 1: Start out going SOUTHEAST on MARCELLUS ST toward US-25 / MERRIMON AVE. <0.1 miles
+ 2: Turn RIGHT onto US-25 / MERRIMON AVE. Continue to follow US-25. 0.1 miles
+ 3: Turn LEFT to take the I-240 E / US-74-ALT E / US-70 E ramp. <0.1 miles
+ 4: Stay STRAIGHT to go onto I-240 E / US-70 E / US-74-ALT E. <0.1 miles
+ 5: Merge onto I-240 E. 3.7 miles
+ 6: Merge onto I-40 E via the exit on the LEFT toward STATESVILLE. 205.1 miles
+ 7: Merge onto I-85 N. 15.5 miles
+ 8: Take the US-70 E exit- EXIT 178- toward RDU AIRPORT / RALEIGH. 0.3 miles
+ 9: Merge onto US-70 BYP E. 2.2 miles
+ 10: US-70 BYP E becomes US-70 E. 6.9 miles
+ 11: Merge onto I-540 E via EXIT 292. 12.0 miles
+ 12: Take the US-1 S exit- EXIT 16. 0.3 miles
+ 13: Turn RIGHT onto CAPITAL BLVD / US-1 S. 1.3 miles
+ 14: Turn LEFT onto SPRING FOREST RD. 0.1 miles
+ 15: End at Hampton Inn, 3621 Spring Forest Rd, Raleigh, NC 27616
+
+Total Est. Time: 4 hours, 4 minutes
+Total Est. Distance: 248.14 miles
+
+
+
+from Appalachian State University
+
+ 1: Start out going NORTHEAST on NC-1549 / WINKLERS CREEK RD toward ROCKY CREEK RD. Continue to follow WINKLERS CREEK RD. 1.1 miles
+ 2: Stay STRAIGHT to go onto NC-1547 / WINKLERS CREEK RD. 0.2 miles
+ 3: Turn LEFT onto BLOWING ROCK RD / US-321 / US-221. <0.1 miles
+ 4: Turn RIGHT onto NC-105 EXT / US-221 / NC-105. Continue to follow US-221. 2.8 miles
+ 5: Turn SLIGHT RIGHT onto US-421 S. 28.3 miles
+ 6: Turn SLIGHT RIGHT onto US-421 BYP S / NC-16 S. Continue to follow US-421 BYP S. 4.5 miles
+ 7: US-421 BYP S becomes US-421 S. 44.7 miles
+ 8: Merge onto I-40 E via EXIT 238 toward GREENSBORO. 70.3 miles
+ 9: Merge onto I-85 N. 15.5 miles
+ 10: Take the US-70 E exit- EXIT 178- toward RDU AIRPORT / RALEIGH. 0.3 miles
+ 11: Merge onto US-70 BYP E. 2.2 miles
+ 12: US-70 BYP E becomes US-70 E. 6.9 miles
+ 13: Merge onto I-540 E via EXIT 292. 12.0 miles
+ 14: Take the US-1 S exit- EXIT 16. 0.3 miles
+ 15: Turn RIGHT onto CAPITAL BLVD / US-1 S. 1.3 miles
+ 16: Turn LEFT onto SPRING FOREST RD. 0.1 miles
+ 17: End at Hampton Inn, 3621 Spring Forest Rd, Raleigh, NC 27616
+
+Total Est. Time: 3 hours, 26 minutes
+Total Est. Distance: 191.35 miles 
