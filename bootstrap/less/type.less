@@ -2,6 +2,19 @@
 // Typography
 // --------------------------------------------------
 
+@font-face {
+    font-family: "Blocked"; 
+    src: url("../fonts/Blocked.eot")  format("embedded-opentype"),
+         url("../fonts/Blocked.ttf")  format("truetype"),
+         url("../fonts/Blocked.woff") format("woff");
+}
+
+@font-face {
+    font-family: "WhiteRabbit"; 
+    src: url("../fonts/WhiteRabbit.eot")  format("embedded-opentype"),
+         url("../fonts/WhiteRabbit.ttf")  format("truetype"),
+         url("../fonts/WhiteRabbit.woff") format("woff");
+}
 
 // Body text
 // -------------------------
@@ -55,24 +68,52 @@ cite {
 // -------------------------
 
 h1, h2, h3, h4, h5, h6 {
+  font-family : WhiteRabbit;
   margin: (@baseLineHeight / 2) 0;
   font-family: @headingsFontFamily;
   font-weight: @headingsFontWeight;
   line-height: 1;
   color: @headingsColor;
   text-rendering: optimizelegibility; // Fix the character spacing for headings
+  word-wrap: break-word;
   small {
     font-weight: normal;
     line-height: 1;
     color: @grayLight;
   }
 }
-h1 { font-size: 36px; line-height: 40px; }
-h2 { font-size: 30px; line-height: 40px; }
-h3 { font-size: 24px; line-height: 40px; }
-h4 { font-size: 18px; line-height: 20px; }
-h5 { font-size: 14px; line-height: 20px; }
-h6 { font-size: 12px; line-height: 20px; }
+header {
+    h1 {
+        font-family    : Blocked,Courier;
+        font-size      : 2.867em;
+        letter-spacing : 0.27em;
+        line-height    : 0.4em;
+    }
+    h2 {
+        font-family    : WhiteRabbit;
+        font-size      : 1.3em;
+        letter-spacing : 0.32em;
+        color          : @cc2;
+    }
+    h3 {
+        font-family : WhiteRabbit;
+        font-size   : 2em;
+        right       : 0;
+        text-shadow : 0 0 6px #0EB1FF;
+        top         : 0;
+        color       : @cc2;
+    }
+}
+h1 { font-size: 36px; }
+h2 { font-size: 30px; }
+h3 { font-size: 16px; color: @cc4; }
+h4 { font-size: 18px; }
+h5 { font-size: 14px; }
+h6 { font-size: 12px; }
+
+h1, h2, h3, h4, h5, h6 {
+    font-family : WhiteRabbit;
+}
 
 h1 small { font-size: 24px; }
 h2 small { font-size: 18px; }
@@ -218,4 +259,66 @@ address {
   margin-bottom: @baseLineHeight;
   font-style: normal;
   line-height: @baseLineHeight;
+}
+
+
+
+
+
+
+
+/* Desktop large
+------------------------- */
+@media (min-width: 1200px) {
+    h1 { font-size: 36px; }
+    h2 { font-size: 30px; }
+    h3 { font-size: 16px; }
+    h4 { font-size: 18px; }
+    h5 { font-size: 14px; }
+    h6 { font-size: 12px; }
+}
+
+/* Desktop
+------------------------- */
+@media (min-width: 981px) and (max-width: 1199px) {
+    h1 { font-size: 36px; }
+    h2 { font-size: 30px; }
+    h3 { font-size: 16px; }
+    h4 { font-size: 18px; }
+    h5 { font-size: 14px; }
+    h6 { font-size: 12px; }
+}
+
+/* Tablet to desktop
+------------------------- */
+@media (min-width: 768px) and (max-width: 980px) {
+    h1 { font-size: 36px; }
+    h2 { font-size: 30px; }
+    h3 { font-size: 16px; }
+    h4 { font-size: 18px; }
+    h5 { font-size: 14px; }
+    h6 { font-size: 12px; }
+}
+
+/* Tablet
+------------------------- */
+@media (max-width: 767px) {
+    header h1 { font-size: 30px; }
+    h1 { font-size: 30px; }
+    h2 { font-size: 16px; }
+    h3 { font-size: 18px; }
+    h4 { font-size: 14px; }
+    h5 { font-size: 12px; }
+    h6 { font-size: 12px; }
+}
+
+/* Landscape phones
+------------------------- */
+@media (max-width: 480px) {
+    header h1 { font-size: 16px; }
+    h2 { font-size: 16px; }
+    h3 { font-size: 16px; }
+    h4 { font-size: 16px; }
+    h5 { font-size: 16px; }
+    h6 { font-size: 16px; }
 }
